@@ -3,7 +3,6 @@ import { MongoClient, ObjectId } from "mongodb";
 import { Fragment } from "react";
 
 export default function MeetupDetails(props) {
-  console.log(props);
   return (
     <MeetupDetail
       image={props.meetupData.image}
